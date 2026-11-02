@@ -152,6 +152,28 @@ Example: `git switch master`
 
 Example: `git switch -c feature-notes`
 
+## 6. Useful Git Commands
+
+### Show Commit Details
+`git show` displays details and changes from a commit.
+
+Example: `git show HEAD`
+
+### Show the Current Branch
+`git branch --show-current` displays the current branch name.
+
+Example: `git branch --show-current`
+
+### Check Differences Between Commits
+`git diff HEAD~1 HEAD` shows changes between the latest two commits.
+
+Example: `git diff HEAD~1 HEAD`
+
+### Show Short Repository Status
+`git status --short` displays a compact summary of file changes.
+
+Example: `git status --short`
+
 
 
 ### Step 3.1: Understand the .git/ contents
