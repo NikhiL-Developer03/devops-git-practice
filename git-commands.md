@@ -130,6 +130,30 @@ Example: `touch notes.txt`
 
 Example: `cd practice`
 
+## 5. Branching Commands
+
+### List Branches
+`git branch` lists local branches.
+
+Example: `git branch`
+
+### Create a Branch
+`git branch branch-name` creates a new branch.
+
+Example: `git branch feature-notes`
+
+### Switch Branch
+`git switch branch-name` switches to an existing branch.
+
+Example: `git switch master`
+
+### Create and Switch to a Branch
+`git switch -c branch-name` creates a branch and switches to it.
+
+Example: `git switch -c feature-notes`
+
+
+
 ### Step 3.1: Understand the .git/ contents
 Item	Purpose
 HEAD	Identifies the branch or commit currently checked out.
