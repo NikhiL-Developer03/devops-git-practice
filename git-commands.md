@@ -103,6 +103,33 @@ Displays each commit on a single line.
 
 Example: `git log --oneline`
 
+## 4. File & Directory Commands
+
+### List Files
+`ls` lists files and directories in the current directory.
+
+Example: `ls -la`
+
+### Print Working Directory
+`pwd` displays the current directory path.
+
+Example: `pwd`
+
+### Create a Directory
+`mkdir` creates a new directory.
+
+Example: `mkdir practice`
+
+### Create an Empty File
+`touch` creates an empty file if it does not exist.
+
+Example: `touch notes.txt`
+
+### Change Directory
+`cd` changes the current working directory.
+
+Example: `cd practice`
+
 ### Step 3.1: Understand the .git/ contents
 Item	Purpose
 HEAD	Identifies the branch or commit currently checked out.
