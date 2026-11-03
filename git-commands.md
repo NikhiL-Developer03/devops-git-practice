@@ -174,8 +174,6 @@ Example: `git diff HEAD~1 HEAD`
 
 Example: `git status --short`
 
-
-
 ### Step 3.1: Understand the .git/ contents
 Item	Purpose
 HEAD	Identifies the branch or commit currently checked out.
@@ -186,3 +184,57 @@ hooks/	Contains sample scripts that can run during Git events.
 info/	Contains additional repository information.
 description	Repository description, mainly used by some Git hosting tools.
 branches/	Legacy directory related to branch references.
+
+## Git Branching Commands
+
+### List Branches
+
+git branch
+
+Lists local branches. The asterisk (*) identifies the current branch.
+
+### Create a Branch
+
+git branch feature-1
+
+Creates a new branch without switching to it.
+
+### Switch Branches
+
+git switch feature-1
+
+Switches to an existing branch.
+
+### Create and Switch in One Command
+
+git switch -c feature-2
+
+Creates a new branch and switches to it.
+
+### Older Branch Switching Commands
+
+git checkout feature-1
+
+Switches to an existing branch.
+
+git checkout -b feature-3
+
+Creates a new branch and switches to it.
+
+### Compare Branches
+
+git log main..feature-1 --oneline
+
+Shows commits present on feature-1 but not on main.
+
+### Delete a Branch
+
+git branch -d feature-3
+
+Deletes a branch that Git considers safely merged.
+
+### Show the Current Branch
+
+git branch --show-current
+
+Displays the name of the current branch.
